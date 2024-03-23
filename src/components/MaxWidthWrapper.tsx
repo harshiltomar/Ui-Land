@@ -1,5 +1,5 @@
-import { ReactNode } from "react";
 import { cn } from "@/lib/utils";
+import { ReactNode } from "react";
 
 const MaxWidthWrapper = ({
   className,
@@ -8,7 +8,6 @@ const MaxWidthWrapper = ({
   className?: string;
   children: ReactNode;
 }) => {
-  //will render the default cn if classname doesnot exists
   return (
     <div
       className={cn(
